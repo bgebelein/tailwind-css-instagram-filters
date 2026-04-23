@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-css-instagram-filters",
+  "version": "1.0.1",
+  "description": "A Tailwind CSS plugin, that adds 44 Instagram like filter utility classes.",
+  "keywords": [
+    "Tailwind",
+    "CSS",
+    "Instagram",
+    "Filters"
+  ],
+  "homepage": "https://github.com/bgebelein/tailwind-css-instagram-filters#readme",
+  "bugs": {
+    "url": "https://github.com/bgebelein/tailwind-css-instagram-filters/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgebelein/tailwind-css-instagram-filters.git"
+  },
+  "license": "MIT",
+  "author": "Bent Gebelein",
+  "type": "CSS",
+  "main": "tailwind-css-instagram-filters.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
