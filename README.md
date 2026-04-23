@@ -68,3 +68,7 @@ Always test your styles thoroughly when using these filters in combination with 
 - Walden
 - Willow
 - xPro II
+
+## Preview
+
+![Preview of the filters](https://raw.githubusercontent.com/bgebelein/tailwind-css-instagram-filters/refs/heads/main/images/filter.webp)
