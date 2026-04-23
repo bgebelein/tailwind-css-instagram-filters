@@ -5,7 +5,7 @@ A Tailwind CSS plugin, that adds 44 Instagram like filter utility classes.
 
 `npm install tailwind-css-instagram-filters`
 
-In your Tailwind CSS stlye.css:
+Import `tailwind-css-instagram-filters.css` in your stylesheet:
 
 ```CSS
 @import "./path/to/node_modules/tailwind-css-instagram-filters/tailwind-css-instagram-filters.css";
@@ -74,7 +74,7 @@ This is necessary to achieve the desired effect, but it also comes with 2 downsi
 
 ## Live Demo
 
-https://play.tailwindcss.com/SJPTiRxNrx
+https://play.tailwindcss.com/wmzozBQNpN?layout=preview
 
 ## Preview
 
