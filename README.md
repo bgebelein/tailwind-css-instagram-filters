@@ -74,7 +74,7 @@ This is necessary to achieve the desired effect, but it also comes with 2 downsi
 
 ## Live Demo
 
-https://play.tailwindcss.com/wmzozBQNpN?layout=preview
+https://play.tailwindcss.com/UY8KXk27Hb?layout=preview
 
 ## Preview
 
