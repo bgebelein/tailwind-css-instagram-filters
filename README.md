@@ -14,14 +14,17 @@ In your Tailwind CSS stlye.css:
 ## Usage
 
 ```HTML
-<img src="some.jpg" alt="Description" class="filter-1977">
+<div class="filter-1977">
+  <img src="some.jpg" alt="Description">
+</div>
 ```
 
 ## Caution
 
 This plugin uses pseudo elements (::before and ::after) in order to add colored overlays to the elements you apply the filters to.
-This is necessary to achieve the desired effect, but it also means that if you apply these filters to elements that already use pseudo elements for styling, you may encounter unexpected results or conflicts in the styling.
-To avoid this, it's recommended to use these filters on elements that do not have existing pseudo element styles, or to carefully manage the CSS to ensure that the pseudo elements do not interfere with each other.
+This is necessary to achieve the desired effect, but it also comes with 2 downsides:
+1. If you apply these filters to elements that already use pseudo elements for styling, you may encounter unexpected results or conflicts in the styling.
+2. Some elements like `<img>` or `<video>` may not work properly with these filters, as they are not designed to have pseudo elements applied to them.
 
 Always test your styles thoroughly when using these filters in combination with other CSS that utilizes pseudo elements!
 
