@@ -21,12 +21,10 @@ In your Tailwind CSS stlye.css:
 
 ## Caution
 
-This plugin uses pseudo elements (::before and ::after) in order to add colored overlays to the elements you apply the filters to.
+This plugin uses pseudo elements (::before, ::after) in order to add colored overlays to the elements you apply the filters to.
 This is necessary to achieve the desired effect, but it also comes with 2 downsides:
 1. If you apply these filters to elements that already use pseudo elements for styling, you may encounter unexpected results or conflicts in the styling.
-2. Some elements like `<img>` or `<video>` may not work properly with these filters, as they are not designed to have pseudo elements applied to them.
-
-Always test your styles thoroughly when using these filters in combination with other CSS that utilizes pseudo elements!
+2. Some elements like `<img>` or `<video>` are not designed to have pseudo elements applied to them. You will have to apply the filter on a wrapping element instead, which may require additional markup and styling adjustments.
 
 ## List of filters
 
@@ -73,6 +71,10 @@ Always test your styles thoroughly when using these filters in combination with 
 | Walden | `.filter-walden`    |
 | Willow | `.filter-willow`    |
 | xPro II | `.filter-xpro-ii`    |
+
+## Live Demo
+
+https://play.tailwindcss.com/SJPTiRxNrx
 
 ## Preview
 
