@@ -19,8 +19,5 @@
   "license": "MIT",
   "author": "Bent Gebelein",
   "type": "CSS",
-  "main": "tailwind-css-instagram-filters.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "main": "tailwind-css-instagram-filters.css"
 }
